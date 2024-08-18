@@ -21,6 +21,7 @@ public class Main {
         book1.setYearOfRelease(2024);
         System.out.println("После изменения года издания первой книги: ");
         System.out.println("book1.getYearOfRelease() = " + book1.getYearOfRelease() + "\n");
-
+        System.out.println(book1.toString());
+        System.out.println(author2.toString());
     }
 }

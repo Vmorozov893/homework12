@@ -24,4 +24,8 @@ public class Book {
     public void setYearOfRelease(int yearOfRelease) {
         this.yearOfRelease = yearOfRelease;
     }
+
+    public String toString() {
+        return "Название книги " + this.bookTitle + ", автор " + this.author.toString() + ", год выпуска " + this.yearOfRelease;
+    }
 }
